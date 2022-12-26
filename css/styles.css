@@ -1,0 +1,191 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background:url(/img/BG.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.logo{
+    text-align: center;
+}
+.logoImg{
+    width: 750px;
+    display : block;
+    margin : auto;
+    margin-top: 30px;
+}
+
+.inputCity{
+    text-align: center;
+    display : block;
+    margin : auto;
+    margin-top: 20px;
+}
+
+.time{
+    text-align: center;
+}
+
+.input{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color:white;
+    width: 50vh;
+    font-size: 30px;
+}
+
+#lens{
+    margin-left: -37px;
+    margin-bottom: -10px;
+    width: 40px;
+    transition: 0.3s;
+}
+
+#lens:hover{
+    scale: 1.25;
+    cursor: pointer;
+}
+
+::placeholder {
+    color: white;
+    opacity: 0.5; 
+  }
+
+#cityName{
+    color: white;
+    text-align: center;
+    margin: 10px;
+}
+.time{
+    height: 47vh;
+}
+#temp{
+    margin-top: -110px;
+    scale: 0.5;
+    text-align: center;
+}
+#icon{
+    text-align: center;
+    flex-direction: row;
+}
+#degrees{
+    margin-top: -110px;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+#details{
+    visibility: hidden;
+    background-color: cornflowerblue;
+    height: 15vh;
+    margin-left: 40%;
+    margin-right: 40%;
+    border-radius: 30px;
+}
+
+#humidity{
+    color: white;
+    text-align: center;
+    margin-top: -115px;
+    font-size: 20px;
+}
+#pressure{
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+#wind{
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+#maxmin{
+    margin-top: -30px;
+    visibility: hidden;
+}
+#max{
+    font-size: 30px;
+    color: red;
+    font-weight: bolder;
+}
+
+#min{
+    font-size: 30px;
+    color: blue;
+    font-weight: bolder;
+}
+
+.footer{
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    color: white;
+}
+
+a{
+    color: white;
+}
+@media only screen and (max-width: 480px) {
+    
+    
+    .logoImg{
+        width: 250px;
+        display : block;
+        margin : auto;
+        margin-top: 30px;
+    }
+
+    .inputCity{
+        display : block;
+        margin : auto;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    #icon{
+        padding-top: -40px;
+        margin-top: -40px;
+        margin-left: -80px ;
+    }
+
+    #details{
+        margin-top: 90px;
+        height: 15vh;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    #temp{
+        scale: 0.4;
+    }
+
+    #humidity{
+        margin-top: -90px;
+    }
+
+    #degrees{
+        margin-top: -150px;
+        color: white;
+        text-align: center;
+        font-size: 50px;
+    }
+    
+
+    .footer{
+        margin-top: 50px;
+        position:static;
+    }
+}

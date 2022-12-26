@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RainDrops - Weather</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6c38722682.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="img/icons/day_clear.png">
+</head>
+<body>
+    <div class="logo">
+        <img class="logoImg" src="img/Logo.png">
+    </div>
+    <div class="inputCity">
+        <input class="input" id="input" type="text" placeholder="City..."><img id="lens" onclick="RainDrops()" src="img/Lens.png"></img>
+    </div>
+    <div class="time">
+        <div id="cityName"></div>
+        <div id="temp">
+            <span id="icon"></span>
+        </div>
+        <h1 id="degrees"></h1>
+        <div id="maxmin"><a id="max"></a><a> / </a><a id="min"></a></div>
+        
+    </div>
+    <div id="details"></div>
+        <div id="humidity"></div>
+        <div id="pressure"></div>
+        <div id="wind"></div>
+    <div class="footer">
+            <p>Made with ❤️ by <a href="https://unaigonzalez.es/">Unai González©️ 2022</a></p>
+     </div>
+    <script src="js/RainDrops.js"></script>
+</body>
+</html>
