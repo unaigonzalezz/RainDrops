@@ -7,7 +7,7 @@ function RainDrops(){
     
     if (city != ''){
         $.ajax({
-            url: "http://api.openweathermap.org/data/2.5/weather?q=" + cityLC + "&units=metric" + "&APPID=a9b7687792836afff69773c1c37c4fad",
+            url: "https://api.openweathermap.org/data/2.5/weather?q=" + cityLC + "&units=metric" + "&APPID=a9b7687792836afff69773c1c37c4fad",
             type: "GET",
             dataType: "json",
             success: function(data){
